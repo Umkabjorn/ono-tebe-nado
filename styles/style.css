@@ -8,19 +8,20 @@
 }
 .header {
   display: grid;
-  margin-top: 92px;
+  margin-top: 90px;
   padding-bottom: 92px;
-  padding-left: 20px;
+  padding-left: 27px;
   align-items: center;
-  grid-template-columns: 1fr 1.2fr 1fr;
+  grid-template-columns: 0.5fr 1.2fr 1fr;
 
 }
 
 .header_logo {
     display: block;
-    width: 148px;
-    height: 105px;
+    width: 150px;
+    height: 110px;
     text-align: center;
+    padding-left: 10px;
 }
 
 
@@ -28,7 +29,7 @@
     display: flex;
     list-style: circle;
     white-space: nowrap;
-    padding-left: 32px;
+    padding-left: 25px;
 }
 
 
@@ -58,7 +59,7 @@
     font-family: 'Raleway';
     font-size: 18px;
     font-weight: 400;
-    line-height: 21.13px;
+    line-height: 25px;
     font-style: normal;
 }
 
@@ -91,7 +92,7 @@
     text-align: center;
     padding: 20px;
     line-height: 100px;
-    letter-spacing: 0.2em;
+    margin-left: 0px;
 }
 
 .aligned-text_right {
@@ -112,12 +113,16 @@
     letter-spacing: 0.4em;
 }
 
-.second_word_letter_e {
-    letter-spacing: 0.4em;
+.second_word_letter_te {
+    letter-spacing: 0.3em;
+}
+
+.second_word_letter_be {
+    letter-spacing: 0em;
 }
 
 .third_word_letter_n {
-    letter-spacing: 0.3em;
+    letter-spacing: 0.4em;
 }
 
 .third_word_letter_a {
@@ -173,7 +178,7 @@
     line-height: 46.96px;
     color: #000000;
     text-transform: uppercase;
-    padding-left: 24px;
+    padding-left: 38px;
     padding-bottom: 27px;
     
 }
@@ -237,6 +242,7 @@
     font-weight: bold;
     color: #FFFFFF;
     position: absolute;
+    left: 39px;
 }
 
 .card__text {
@@ -251,7 +257,7 @@
 }
 
 .lots__look-more-link {
-    padding: 40px 40px;
+    padding: 30px 40px;
     position: absolute;
     font-size: 20px;
     font-weight: 400;
@@ -295,33 +301,32 @@
     color: #000000;
     text-transform: uppercase;
     align-items: center;
-    
 }
 
 .about_content {
     display: grid;
     grid-template-columns: 1fr 2fr;
-    gap: 25px;
+    gap: 24px;
+    padding: 5px;
 }
 
 .about__text {
     font-size: 20px;
     line-height: 24px;
     padding-bottom: 24px;
-    padding-right: 24px;
 }
 
 .footer {
     display: grid;
-    grid-template-columns: 1fr 1.2fr 1fr;
-    padding: 178px 50px 91px 50px;
+    grid-template-columns: 1fr 1.4fr 0.1fr;
+    padding: 150px 50px 91px 48px;
 }
 
 .footer_address {
     font-family: 'Raleway';
     font-size: 18px;
     font-weight: 400;
-    line-height: 21.13px;
+    line-height: 24px;
     font-style: normal;
     
 }
@@ -353,6 +358,7 @@
 }
 
 .footer__social-list-item {
-    padding: 20px;
+    display: flex;
+    padding-left: 49px;
 }
 
