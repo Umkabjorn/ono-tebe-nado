@@ -113,12 +113,16 @@
     letter-spacing: 0.4em;
 }
 
-.second_word_letter_te {
+.second_word_letter_teb {
     letter-spacing: 0.3em;
+    position: relative;
+    left: -30px;
 }
 
-.second_word_letter_be {
+.second_word_letter_e {
     letter-spacing: 0em;
+    position: relative;
+    left: -27px;
 }
 
 .third_word_letter_n {
@@ -128,7 +132,6 @@
 .third_word_letter_a {
     letter-spacing: 0.1em;
 }
-
 
 .cover__description {
     display: flex;
@@ -206,7 +209,13 @@
     flex-flow: column nowrap;
     flex-grow: 1;
     position: relative;
+    z-index: 1;
+}
+
+.overlay_card {
+    position: relative;
     background-color: rgba(0 0 0 / 0.4);
+    z-index:3;
 }
 
 .card_type_film {
@@ -214,7 +223,7 @@
     width: 334px;
     height: 563px;
     background-position: center;
-    background-size:cover
+    background-size: cover;
 
 }
 
@@ -223,7 +232,7 @@
     width: 334px;
     height: 563px;
     background-position: center;
-    background-size:cover
+    background-size: cover;
 }
 
 .card_type_picture {
@@ -231,7 +240,7 @@
     width: 334px;
     height: 563px;
     background-position: center;
-    background-size:cover
+    background-size: contain;
 }
 
 .card__title {
