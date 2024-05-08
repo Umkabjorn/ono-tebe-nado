@@ -10,7 +10,6 @@
   padding-left: 27px;
   align-items: center;
   grid-template-columns: 0.5fr 1.2fr 1fr;
-
 }
 
 .header_logo {
@@ -67,6 +66,13 @@
 }
 
 .overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    z-index: 2;
     background-color: rgba(0 0 0 / 0.6);
 } 
 
@@ -178,14 +184,15 @@
 
 .lots__card-list-item {
     width: 336px;
-    height: 563px;
+    min-height: 563px;
     list-style: none;
     background-position: center;
     position: relative;
     z-index: 1;
+    display: grid;
 }
 
-.overlay_card {
+/* .overlay_card {
     top: 0;
     left: 0;
     width: 100%;
@@ -193,8 +200,8 @@
     object-fit: cover;
     position: absolute;
     z-index: 2;
-    background-color: rgba(0 0 0 / 0.6);    
-}
+    background-color: rgba(0 0 0 / 0.6); 
+}  */
 
 .card-link {
     height: 100%;
